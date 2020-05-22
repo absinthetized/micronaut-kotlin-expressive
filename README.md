@@ -2,7 +2,7 @@
 a PoC for a more expressive programmatic routing API for micronaut in kotlin
 
 ## Warning
-Basically I was curious about micronaut (and micronaut-data-jdbc) but I have the Annotated Controller Pattern. The programmatic API in micronaut sucks for my taste, while I've seen very nice APIs like the one by Vert.x Web or Javalin.
+Basically I was curious about micronaut (and micronaut-data-jdbc) but I hate the Annotated Controller Pattern. The programmatic API in micronaut sucks for my taste, while I've seen very nice APIs like the one by Vert.x Web or Javalin.
 
 Therefore, I've started this PoC. The code is rude, single file. It contains both the library for the expressive programmatic API and the example implementation.
 Also everything is based off the public micornaut API rather than its internals so it is expected to be suboptimal.
